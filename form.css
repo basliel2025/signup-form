@@ -58,4 +58,54 @@ span{
     font-size: 20px;
     background-color: rgb(236, 240, 240);
 }
-
+.form{
+    position: relative;
+    display: block;
+    margin-right: 200px;
+    border: 1px solid rgb(162, 165, 165);
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 170px;
+}
+.first-row label{
+    display:block;
+    margin: 3px;
+}
+.second-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 170px;
+}
+.second-row label{
+    display: block;
+    margin: 3px;
+}
+.form{
+    padding: 20px;
+    width:95%;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5) ;
+}
+h1{
+    padding-left: 60px;
+    font-weight:600;
+    color: grey;
+}
+.personal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 170px;
+}
+.personal label{
+    display:block;
+    margin: 3px;
+}
