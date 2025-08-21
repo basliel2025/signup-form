@@ -1,7 +1,12 @@
 ODIN Sign-Up Form
+
+
 A visually polished, assignment-driven sign-up form built as part of The Odin Project curriculum. This project demonstrates mastery of HTML and CSS fundamentals, including layout, typography, form validation, and semantic structure.
 
+
 Project Overview
+
+
 This form replicates a professional sign-up experience, featuring:
 - A full-height background image with a semi-transparent logo overlay
 - A clean, two-column layout using Flexbox
@@ -20,16 +25,23 @@ Features
 - Visual Hierarchy through spacing, font sizing, and grouping
 
 File Structure
+
+
 /fonts
   └── Norse-Bold.otf
+
 form.css
+
 index.html
+
 README.md
 
 
 
 Image Attribution
+
 Background image by Halie West via Unsplash.
+
 Logo sourced from The Odin Project curriculum assets.
 
 How to Run
@@ -43,4 +55,6 @@ Future Improvements
 - Improve accessibility with ARIA labels and keyboard navigation
 
 Author
+
+
 Built with care and precision by [basliel.ugr-3563-16@aau.edu.et](mailto:basliel.ugr-3563-16@aau.edu.et) , a focused and motivated upcoming developer passionate about clean design and user experience.
