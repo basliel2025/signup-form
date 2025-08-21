@@ -179,3 +179,8 @@ a{
     padding-left: 2px;
 
 }
+nav{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
