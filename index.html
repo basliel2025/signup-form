@@ -13,43 +13,44 @@
    <div class="top">
     <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="odin's logo" class="text"> 
     <span>ODIN</span>
+    <div class="pic">photo by <code>Halie West</code> on <code>Unsplash</code></div>
 </div>
 </div>
 <div class="right">
 <div class="note">
-    <p>This is not a real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br> Sign up <em>now</em> to get started. <br> <br> <br> Youn know you want to.</p>
+    <p>This is not a real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br> Sign up <em>now</em> to get started. <br> <br> You know you want to.</p>
 </div>
 <div class="form">
-<h1 id="head">Let's do this!</h1>
+<h3 id="head">Let's do this!</h3>
 <form>
     <div class="first-row">
 <div>
 <label for="fname">FIRST NAME</label>
-<input type="text" id="fname" name="fname" required>
+<input type="text" id="fname" name="fname" placeholder="Please Enter your first name" required>
 </div>
 <div>
     <label for="lname">LAST NAME</label>
-    <input type="text" id="lname" name="lname" required>
+    <input type="text" id="lname" name="lname" placeholder="Please Enter your last name" required>
     </div>
     </div>
     <div class="personal">
         <div>
         <label for="mail">EMAIL</label>
-        <input type="email" id="mail" name="mail" required>
+        <input type="email" id="mail" name="mail" placeholder="Please Enter your email"required>
         </div>
         <div>
             <label for="PN">PHONE NUMBER</label>
-            <input type="tel" id="PN" name="phone number" required>
+            <input type="tel" id="PN" name="phone number" pattern="[0-9]{10}" minlength="10" maxlength="12" placeholder="Please Enter your phone number"required>
             </div>
     </div>
     <div class="second-row">
     <div>
         <label for="pname">PASSWORD</label>
-        <input type="password" id="pname" name="pname" required>
+        <input type="password" id="pname" name="pname" maxlength="12" minlength="4" placeholder="Please Enter your password" required>
         </div>
         <div>
             <label for="name">CONFIRM PASSWORD</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" placeholder="Please confirm your password" required>
 </div>
 </form>
 </div>
