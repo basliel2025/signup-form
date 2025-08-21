@@ -25,18 +25,19 @@ body{
 }
 .top {
     position: absolute;
-    top:150px;
+    top:125px;
     display: flex;
     align-items: center;
     background-color:  rgba(12, 12, 12, 0.6);
-    padding-top: 10px;
+    padding-top: 2px;
     padding-right: 160px;
     padding-left: 170px;
+    padding-bottom: 1px;
     border-radius: 8px;
 }
 .text{
     width: 80px;
-    height: 100px;
+    height: 90px;
     text-align: center;
 }
 span{
@@ -45,6 +46,18 @@ span{
     color:white;
     text-align: center;
 }
+.pic{
+    position: absolute;
+    top: 470px;
+    color: white;
+    text-align: center;
+    margin-right:15px;
+}
+.pic code{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
 .container{
     display:flex;
     align-items: flex-start;
@@ -52,16 +65,23 @@ span{
 }
 .note{
     flex: 1;
-    padding: 70px 0px 10px 50px;
+    padding: 40px 0px 0px 45px;
+    margin-bottom: 0;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(241, 238, 238);
     font-size: 20px;
     background-color: rgb(236, 240, 240);
+    height: 80px;
+}
+.note p{
+    margin-bottom: 40px;
 }
 .form{
     position: relative;
     display: block;
     width: 90%;
+    height: 240px;
 }
 .right{
     display:flex;
@@ -74,30 +94,41 @@ span{
     align-items: center;
     gap: 135px;
     margin-left: 23px;
+    margin-bottom: 15px;
 }
 .first-row label{
     display:block;
-    margin: 3px;
+    margin-bottom: 3px;
+    font-size: 15px;
 }
+
 .second-row{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 135px;
     margin-left: 23px;
+    margin-bottom: 10px;
 }
 .second-row label{
     display: block;
     margin: 3px;
+    font-size: 15px;
+}
+.second-row input:invalid{
+    border-color: red;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
 }
 .form{
     padding: 20px;
     width:95%;
     box-shadow: 1px 5px 5px 0px rgba(5, 5, 5, 0.3) ;
 }
-h1{
-    padding-left: 30px;
+h3{
+    padding-left: 25px;
+    font-size: 25px;
     font-weight:600;
+    margin-top: 3px;
     color: grey;
 }
 .personal{
@@ -106,23 +137,31 @@ h1{
     align-items: center;
     margin-left: 23px;
     gap: 135px;
+    margin-bottom: 15px;
 }
 .personal label{
     display:block;
-    margin: 3px;
+    margin-top: 5px;
+    font-size: 15px;
 }
 input{
+    height: 23px;
     width: 230px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 2px solid black;
 }
 input:focus{
-   border: 2px solid blue;
-   box-shadow: 1px 2px 2px 2px rgba(10, 10, 10, 0.2); 
+    outline:none;
+    border: 2px solid blue;
+    box-shadow: 1px 2px 2px 2px rgba(10, 10, 10, 0.2); 
 }
 .enter{
     width: 210px;
     height: 40px;
     margin-top: 30px;
     margin-left: 45px;
+    margin-bottom: 15px;
     border-radius: 10px;
     box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.5); 
     font-size: 16px;
