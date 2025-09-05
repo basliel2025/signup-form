@@ -1,0 +1,97 @@
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, rgb(30, 60, 114), rgb(42, 82, 152));
+    color: white;
+    padding-top: 32px;
+    padding-right: 16px;
+    text-align: center;
+    border-bottom: 5px solid rgb(109, 213, 237);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  
+  header nav {
+    margin-bottom: 16px;
+  }
+  
+  header nav a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  header .subtitle {
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+  main {
+    flex: 1;
+    width: 100vw;
+    margin: 30px auto;
+    padding-right: 16px;
+  }
+  
+  section {
+    margin-bottom: 32px;
+  }
+  
+  section h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: rgb(30, 60, 114);
+    border-left: 5px solid rgb(109, 213, 237);
+    padding-left: 10px;
+  }
+  
+  section ul {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: rgb(42, 82, 152);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(30, 60, 114);
+  }
+  section:last-of-type {
+    padding: 20px;
+    background: linear-gradient(135deg, rgb(109, 213, 237), rgb(42, 82, 152));
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  section:last-of-type a {
+    color: yellow;
+  }
+  
+  section:last-of-type a:hover {
+    text-decoration: underline;
+  }
+  
+  
